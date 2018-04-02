@@ -12,7 +12,7 @@ from colormap.colors import rgb2hex
 
 # Create your views here.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOG_FILENAME = os.path.join(BASE_DIR,"errorlog.log")
+LOG_FILENAME = os.path.join(BASE_DIR,"imageApp/errorlog.log")
 logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG)
 
 
